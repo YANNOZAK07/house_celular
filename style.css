@@ -9,22 +9,22 @@ body {
     background-color: #000;
     color: #fff;
 }
+.inicio {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
 
-img logo{
+.imagem{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-80%, 20%);
-    padding: 70px;
-   
+    width: 500px;
+    height: auto; 
+    align-items: left;
 }
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+.container{
+    text-align: center;
 }
-
 header {
     background-color: #ffd700;
     color: #000;
